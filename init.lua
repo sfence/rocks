@@ -327,8 +327,14 @@ end --End register_rockset function
 
 --------------Default Rocks Registration -------
 
-register_rockset("stone", "hades_core:cobble", "hades_core:stone", "stone.png")
+register_rockset("stone", "hades_core:cobble", "hades_core:stone", "default_stone.png")
 --register_rockset("desert_sand", "default:desert_sand", "default:desert_sandstone", "desert_sand.png")
-register_rockset("stone_baked", "hades_core:stone_baked", "hades_core:cobble_baked", "desert_stone.png")
-register_rockset("sand", "hades_core:fertile_sand", "hades_core:sandstone", "sand.png")
+register_rockset("stone_baked", "hades_core:stone_baked", "hades_core:cobble_baked", "hades_core_stone_baked.png")
+register_rockset("tuff", "hades_core:tuff_brick", "hades_core:tuff", "hades_core_tuff.png")
+register_rockset("tuff_baked", "hades_core:tuff_brick_baked", "hades_core:tuff_baked", "hades_core_tuff_baked.png")
+register_rockset("volcanic_sand", "hades_core:volcanic_sand", "hades_core:sandstone", "default_sandstone.png")
+register_rockset("sand", "hades_core:fertile_sand", "hades_core:sandstone_volcanic", "hades_core_sandstone_volcanic.png")
 --register_rockset("silver_sand", "default:silver_sand", "default:silver_sandstone", "silver_sand.png")
+register_rockset("chondrite", "hades_core:chondrite_brick", "hades_core:chondrite", "hades_core_chondrite.png")
+register_rockset("essexite", "hades_core:essexite_brick", "hades_core:essexite", "hades_core_essexite.png")
+register_rockset("marble", "hades_core:marble_brick", "hades_core:marble", "hades_core_marble.png")
